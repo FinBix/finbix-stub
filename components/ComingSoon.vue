@@ -1,6 +1,6 @@
 <template>
   <div class="splash-container">
-    <img src="@/assets/construction.png" alt="Splash Image" class="splash-image">
+    <img src="~/assets/construction.png" alt="Splash Image" class="splash-image">
   </div>
 </template>
 
