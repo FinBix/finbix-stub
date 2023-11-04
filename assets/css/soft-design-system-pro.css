@@ -191,7 +191,6 @@ h4,
 .h4 {
   font-size: calc(1.275rem + 0.3vw);
 }
-
 @media (min-width: 1200px) {
 
   h4,
@@ -8449,6 +8448,12 @@ fieldset:disabled .btn {
 
 .position-static {
   position: static !important;
+}
+.moving-tab .nav-link.active {
+  color: var(--bs-dark) !important;
+}
+.nav.nav-pills {
+  background: var(--bs-finbix-light) !important;
 }
 
 .position-relative {
