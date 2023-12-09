@@ -21172,7 +21172,6 @@ fieldset:disabled .btn {
     left: 28px;
     right: auto;
     font-size: 22px;
-    color: #6633FF;
     transition: top 0.35s ease;
   }
 
@@ -21208,7 +21207,7 @@ fieldset:disabled .btn {
     left: 28px;
     right: auto;
     font-size: 22px;
-    color: #fff;
+    color: #6633FF;
     transition: top 0.35s ease;
   }
 
@@ -21256,7 +21255,7 @@ fieldset:disabled .btn {
     left: 28px;
     right: auto;
     font-size: 22px;
-    color: #fff;
+    color: transparent;
     transition: top 0.35s ease;
   }
 
