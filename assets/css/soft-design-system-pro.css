@@ -4088,7 +4088,7 @@ fieldset:disabled .btn {
   --bs-dropdown-spacer: 1.625rem;
   --bs-dropdown-font-size: 0.875rem;
   --bs-dropdown-color: var(--bs-body-color);
-  --bs-dropdown-bg: rgba(144, 122, 204, 0.1);
+  --bs-dropdown-bg: #fff;
   --bs-dropdown-border-color: transparent;
   --bs-dropdown-border-radius: 0.5rem;
   --bs-dropdown-border-width: 0;
@@ -4098,7 +4098,7 @@ fieldset:disabled .btn {
   --bs-dropdown-box-shadow: 0 8px 26px -4px rgba(20, 20, 20, 0.15), 0 8px 9px -5px rgba(20, 20, 20, 0.06);
   --bs-dropdown-link-color: var(--bs-body-color);
   --bs-dropdown-link-hover-color: #344767;
-  --bs-dropdown-link-hover-bg: rgba(144, 122, 204, 0.3);
+  --bs-dropdown-link-hover-bg: #e9ecef;
   --bs-dropdown-link-active-color: var(--bs-body-color);
   --bs-dropdown-link-active-bg: transparent;
   --bs-dropdown-link-disabled-color: #6c757d;
@@ -4350,7 +4350,7 @@ fieldset:disabled .btn {
   color: var(--bs-dropdown-link-color);
   text-align: inherit;
   white-space: nowrap;
-  background-color: rgba(144, 122, 204, 0.1);
+  background-color: transparent;
   border: 0;
 }
 
