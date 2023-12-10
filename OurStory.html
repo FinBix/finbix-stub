@@ -1,0 +1,726 @@
+<!--
+=========================================================
+* Soft UI Design System PRO - v1.1.1
+=========================================================
+
+* Product Page:  https://www.creative-tim.com/product/soft-ui-design-system-pro 
+* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Coded by www.creative-tim.com
+
+ =========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <title>
+        FinBix
+    </title>
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Nucleo Icons -->
+    <link href="assets/css/nucleo-icons.css" rel="stylesheet"/>
+    <link href="assets/css/nucleo-svg.css" rel="stylesheet"/>
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <script src="assets/js/plugins/Gradient.js"></script>
+    <link href="assets/css/nucleo-svg.css" rel="stylesheet"/>
+    <!-- CSS Files -->
+    <link id="pagestyle" href="assets/css/soft-design-system-pro.css?v=1.1.1" rel="stylesheet"/>
+    <!-- Nepcha Analytics (nepcha.com) -->
+    <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
+    <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
+</head>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    #gradient-canvas {
+        --gradient-color-1: #78C7FF; /* Lightest blue representing the top of the sky */
+        --gradient-color-2: #907ACC; /* Light blue */
+        --gradient-color-3: #8F00FF; /* Deeper blue, moving toward the horizon */
+        --gradient-color-4: #6633FF; /* Deepest blue for the horizon */
+    }
+</style>
+
+<body class="case-study">
+<!-- Navbar -->
+<!----#######---->
+<nav class="navbar navbar-expand-lg position-absolute top-0 z-index-3 w-100 shadow-none my-3  navbar-transparent ">
+    <div class="container">
+        <a class="navbar-brand text-white"
+           href="index.html" rel="tooltip"
+           title="Designed and Coded by Creative Tim" data-placement="bottom" >
+            <img src="assets/img/logos/logonew.png" alt="FinBix Logo"
+                 style="height:auto; width:200px; max-height: 100%; max-width: 100%;">
+        </a>
+
+        <button class="navbar-toggler shadow-none border-0 ms-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
+                aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon mt-2">
+          <span class="navbar-toggler-bar bar1"></span>
+          <span class="navbar-toggler-bar bar2"></span>
+          <span class="navbar-toggler-bar bar3"></span>
+        </span>
+        </button>
+        <div class="collapse navbar-collapse w-100 pt-2 pb-2 py-lg-0" id="navigation">
+            <ul class="navbar-nav navbar-nav-hover mx-auto">
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                    <a class="font-weight-bold nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-dark"
+                       role="button" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
+                        Solutions
+                        <img src="assets/img/down-arrow-dark.svg" alt="down-arrow"
+                             class="arrow ms-1 d-lg-block d-none">
+                        <img src="assets/img/down-arrow-dark.svg" alt="down-arrow"
+                             class="arrow ms-1 d-lg-none d-block">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg"
+                         aria-labelledby="dropdownMenuDocs">
+                        <div class="d-none d-lg-block">
+                            <ul class="list-group">
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-0 border-radius-md" href="ReconX.html">
+                                        <div class="d-flex ">
+                                            <div class="icon me-3  mt-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 48 48"><title>block</title><g><path d="M43.879,12.037a.994.994,0,0,0-.413-.422l-19-10a1,1,0,0,0-.932,0l-19,10a1,1,0,0,0-.413.421L24,22.5Z" fill="#9000ff"></path><path d="M24,22.5v24a1,1,0,0,0,.466-.115l19-10A1,1,0,0,0,44,35.5v-23a.986.986,0,0,0-.121-.463Zm19,13h0Z" fill="#ededed"></path><path d="M4.121,12.036A1,1,0,0,0,4,12.5v23a1,1,0,0,0,.534.885l19,10A1,1,0,0,0,24,46.5v-24Z" fill="#78c8ff"></path></g></svg>
+                                            </div>
+                                            <div>
+                                                <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">
+                                                    ReconX</h6>
+                                                <span class="text-sm ps-3">Scheme Reconciliation</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row d-lg-none">
+                            <div class="col-md-12 g-0">
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="ReconX.html">
+                                    <div class="d-flex">
+                                        <div class="icon h-10 me-3 mt-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 48 48"><title>block</title><g><path d="M43.879,12.037a.994.994,0,0,0-.413-.422l-19-10a1,1,0,0,0-.932,0l-19,10a1,1,0,0,0-.413.421L24,22.5Z" fill="#9000ff"></path><path d="M24,22.5v24a1,1,0,0,0,.466-.115l19-10A1,1,0,0,0,44,35.5v-23a.986.986,0,0,0-.121-.463Zm19,13h0Z" fill="#ededed"></path><path d="M4.121,12.036A1,1,0,0,0,4,12.5v23a1,1,0,0,0,.534.885l19,10A1,1,0,0,0,24,46.5v-24Z" fill="#78c8ff"></path></g></svg>
+                                        </div>
+                                        <div>
+                                            <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                ReconX</h6>
+                                            <span class="ps-3 text-sm">Scheme Reconciliation</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-none d-lg-block">
+                            <ul class="list-group">
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-0 border-radius-md" href="SmartPayOut.html">
+                                        <div class="d-flex ">
+                                            <div class="icon me-3  mt-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64"><title>compass-3</title><g stroke-width="4" fill="#78c8ff" stroke="#78c8ff"><path fill="none" stroke="#9000ff" stroke-linecap="square" stroke-miterlimit="10" d="M32 2a30 30 0 1 1 0 60 30 30 0 1 1 0-60z"></path><path fill="none" stroke-linecap="square" stroke-miterlimit="10" d="M35 51l-6-16-16-6 32-10z"></path></g></svg>
+                                            </div>
+                                            <div>
+                                                <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">
+                                                    Smart PayOut</h6>
+                                                <span class="text-sm ps-3">Payout Orchestration</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row d-lg-none">
+                            <div class="col-md-12 g-0">
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="SmartPayOut.html">
+                                    <div class="d-flex">
+                                        <div class="icon h-10 me-3  mt-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64"><title>compass-3</title><g stroke-width="4" fill="#78c8ff" stroke="#78c8ff"><path fill="none" stroke="#9000ff" stroke-linecap="square" stroke-miterlimit="10" d="M32 2a30 30 0 1 1 0 60 30 30 0 1 1 0-60z"></path><path fill="none" stroke-linecap="square" stroke-miterlimit="10" d="M35 51l-6-16-16-6 32-10z"></path></g></svg>
+                                        </div>
+                                        <div>
+                                            <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                Smart PayOut</h6>
+                                            <span class="ps-3 text-sm">Payout Orchestration</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-none d-lg-block">
+                            <ul class="list-group">
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-0 border-radius-md" href="CorporateSpendControl.html">
+                                        <div class="d-flex ">
+                                            <div class="icon me-3  mt-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" viewBox="0 0 48 48"><title>switches</title><g fill="#78c8ff"><path d="M35,26H13a10,10,0,0,0,0,20H35a10,10,0,0,0,0-20Zm0,17a7,7,0,1,1,7-7A6.957,6.957,0,0,1,35,43Z"></path><path d="M35,2H13a10,10,0,0,0,0,20H35A10,10,0,0,0,35,2ZM13,19a7,7,0,1,1,7-7A6.957,6.957,0,0,1,13,19Z" fill="#9000ff"></path></g></svg>
+                                            </div>
+                                            <div>
+                                                <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">
+                                                    Corporate Spend Control</h6>
+                                                <span class="text-sm ps-3">Corporate Cards spend control</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row d-lg-none">
+                            <div class="col-md-12 g-0">
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="CorporateSpendControl.html">
+                                    <div class="d-flex">
+                                        <div class="icon h-10 me-3  mt-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" viewBox="0 0 48 48"><title>switches</title><g fill="#78c8ff"><path d="M35,26H13a10,10,0,0,0,0,20H35a10,10,0,0,0,0-20Zm0,17a7,7,0,1,1,7-7A6.957,6.957,0,0,1,35,43Z"></path><path d="M35,2H13a10,10,0,0,0,0,20H35A10,10,0,0,0,35,2ZM13,19a7,7,0,1,1,7-7A6.957,6.957,0,0,1,13,19Z" fill="#9000ff"></path></g></svg>
+                                        </div>
+                                        <div>
+                                            <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                Corporate Spend Control</h6>
+                                            <span class="ps-3 text-sm">Corporate Cards spend control</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                    <a class="font-weight-bold nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-dark"
+                       role="button" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
+                        Case Studies
+                        <img src="assets/img/down-arrow-dark.svg" alt="down-arrow"
+                             class="arrow ms-1 d-lg-block d-none">
+                        <img src="assets/img/down-arrow-dark.svg" alt="down-arrow"
+                             class="arrow ms-1 d-lg-none d-block">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg"
+                         aria-labelledby="dropdownMenuDocs">
+                        <div class="d-none d-lg-block">
+                            <ul class="list-group">
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-0 border-radius-md"
+                                       href="Issuing.html">
+                                        <div class="d-flex ">
+                                            <div class="icon me-3  mt-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 48 48"><title>contactless-card</title><g stroke-linecap="square" stroke-linejoin="miter" stroke-width="4" fill="none" stroke="#9000ff" stroke-miterlimit="10"><line x1="10" y1="33" x2="24" y2="33"></line><line x1="32" y1="33" x2="38" y2="33"></line><path d="M43,41H5a2.946,2.946,0,0,1-3-3V12A2.946,2.946,0,0,1,5,9H43a2.946,2.946,0,0,1,3,3V38A2.946,2.946,0,0,1,43,41Z"></path><path d="M31.189,23.392a3.933,3.933,0,0,0,0-4.784" stroke="#78c8ff"></path><path d="M35.991,26.993a9.943,9.943,0,0,0,0-11.986" stroke="#78c8ff"></path><circle cx="26" cy="21" r="2" stroke="none" fill="#78c8ff"></circle><rect x="10" y="17" width="7" height="6"></rect></g></svg>
+                                            </div>
+                                            <div>
+                                                <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">
+                                                    Issuing</h6>
+                                                <span class="text-sm ps-3">Issuer Reconciliation</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row d-lg-none">
+                            <div class="col-md-12 g-0">
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="Issuing.html">
+                                    <div class="d-flex">
+                                        <div class="icon h-10 me-3 mt-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 48 48"><title>contactless-card</title><g stroke-linecap="square" stroke-linejoin="miter" stroke-width="4" fill="none" stroke="#9000ff" stroke-miterlimit="10"><line x1="10" y1="33" x2="24" y2="33"></line><line x1="32" y1="33" x2="38" y2="33"></line><path d="M43,41H5a2.946,2.946,0,0,1-3-3V12A2.946,2.946,0,0,1,5,9H43a2.946,2.946,0,0,1,3,3V38A2.946,2.946,0,0,1,43,41Z"></path><path d="M31.189,23.392a3.933,3.933,0,0,0,0-4.784" stroke="#78c8ff"></path><path d="M35.991,26.993a9.943,9.943,0,0,0,0-11.986" stroke="#78c8ff"></path><circle cx="26" cy="21" r="2" stroke="none" fill="#78c8ff"></circle><rect x="10" y="17" width="7" height="6"></rect></g></svg>
+                                        </div>
+                                        <div>
+                                            <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                Issuing</h6>
+                                            <span class="ps-3 text-sm">Issuer Reconciliation</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-none d-lg-block">
+                            <ul class="list-group">
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-0 border-radius-md"
+                                       href="Acquiring.html">
+                                        <div class="d-flex ">
+                                            <div class="icon me-3  mt-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64"><title>pos</title><g stroke-linecap="square" stroke-linejoin="miter" stroke-width="4" fill="none" stroke="#9000ff" stroke-miterlimit="10"><path d="M20,48L20,48 c-4.418,0-8-3.582-8-8V2h40v38c0,4.418-3.582,8-8,8h0"></path> <polygon points="44,22 20,22 20,10 20,10 44,10 "></polygon> <polygon points=" 44,62 20,62 20,35 44,35 44,42 " stroke="#78c8ff"></polygon> <line x1="28" y1="35" x2="28" y2="62" stroke="#78c8ff"></line> <line x1="36" y1="49" x2="36" y2="54" stroke="#78c8ff"></line></g></svg>
+                                            </div>
+                                            <div>
+                                                <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">
+                                                    Acquiring</h6>
+                                                <span class="text-sm ps-3">Merchant Payout</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row d-lg-none">
+                            <div class="col-md-12 g-0">
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="Acquiring.html">
+                                    <div class="d-flex">
+                                        <div class="icon h-10 me-3  mt-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64"><title>pos</title><g stroke-linecap="square" stroke-linejoin="miter" stroke-width="4" fill="none" stroke="#9000ff" stroke-miterlimit="10"><path d="M20,48L20,48 c-4.418,0-8-3.582-8-8V2h40v38c0,4.418-3.582,8-8,8h0"></path> <polygon points="44,22 20,22 20,10 20,10 44,10 "></polygon> <polygon points=" 44,62 20,62 20,35 44,35 44,42 " stroke="#78c8ff"></polygon> <line x1="28" y1="35" x2="28" y2="62" stroke="#78c8ff"></line> <line x1="36" y1="49" x2="36" y2="54" stroke="#78c8ff"></line></g></svg>
+                                        </div>
+                                        <div>
+                                            <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                Acquiring</h6>
+                                            <span class="ps-3 text-sm">Merchant Payout</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                    <a class="font-weight-bold nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-dark"
+                       role="button" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
+                        About Us
+                        <img src="assets/img/down-arrow-dark.svg" alt="down-arrow"
+                             class="arrow ms-1 d-lg-block d-none">
+                        <img src="assets/img/down-arrow-dark.svg" alt="down-arrow"
+                             class="arrow ms-1 d-lg-none d-block">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg"
+                         aria-labelledby="dropdownMenuDocs">
+                        <div class="d-none d-lg-block">
+                            <ul class="list-group">
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-0 border-radius-md"
+                                       href="OurStory.html">
+                                        <div class="d-flex ">
+                                            <div>
+                                                <h6 class="ps-2 dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">
+                                                    Our Story</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row d-lg-none">
+                            <div class="col-md-12 g-0">
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="OurStory.html">
+                                    <div class="d-flex">
+                                        <div>
+                                            <h6 class="ps-2 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                Our Story</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-none d-lg-block">
+                            <ul class="list-group">
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-0 border-radius-md"
+                                       href="Contacts.html">
+                                        <div class="d-flex ">
+                                            <div>
+                                                <h6 class="ps-2 dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">
+                                                    Contacts</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row d-lg-none">
+                            <div class="col-md-12 g-0">
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="Contacts.html">
+                                    <div class="d-flex">
+                                        <div>
+                                            <h6 class="ps-2 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                Contacts</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav d-lg-block d-none">
+                <li class="nav-item">
+                    <a href="contact-us.html"
+                       class="btn   bg-gradient-primary  mb-0 me-1">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!----#######---->
+<!-- -------- START HEADER 8 w/ card over right bg image ------- -->
+
+<!-- -------- END HEADER 8 w/ card over right bg image ------- -->
+<!-- -------- START Features w/ 4 infos - just colored icons -------- -->
+
+<!-- -------- END Features w/ 4 infos - just colored icons -------- -->
+<!-- START Blogs w/ 3 images & quote & text -->
+<section class="pt-8">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 ms-auto me-auto text-center">
+                <h2 class="text-gradient text-primary">About Us</h2>
+                <p>
+                    Welcome to FinBix.
+                </p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6 position-relative">
+                <div class="position-relative ms-md-5 me-md-n5">
+                    <div class="blur-shadow-image">
+                        <img class="image-left rounded-3 img-fluid position-relative top-0 end-0 bg-cover" src="assets/img/finbix/DIFC3.png" alt="image">
+                    </div>
+                </div>
+                <!-- Second image on the left side of the article -->
+                <div class="position-absolute bottom-0 mb-5 ms-n2 me-3 start-0 end-2 d-md-block d-none">
+                    <div class="blur-shadow-image">
+                        <img class="image-container rounded-3 img-fluid position-relative bg-cover" src="assets/img/finbix/DIFC7.png" alt="image" >
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <!-- First image on the right side, above the article -->
+                <div class="position-relative ms-n4 mb-5 mt-8 d-md-block d-none" >
+                    <div class="blur-shadow-image">
+                        <img class="image-right rounded-3 img-fluid position-relative bg-cover" src="assets/img/finbix/DIFC6.png" alt="image">
+                    </div>
+                </div>
+                <h3 class="mb-4">Our Story</h3>
+                <p>Welcome to FinBix, your trusted partner in financial reconciliation and data integrity. We are a dynamic team of innovators, technologists, and finance experts on a mission to make banking and financial services more accessible, convenient, and secure for everyone. We specialize in providing innovative solutions that streamline and optimize reconciliation processes for businesses of all sizes.
+                </p>
+                <p>
+                    Founded in 2023, FinBix emerged from a need for simplifying complex financial reconciliations. We recognized that businesses were grappling with the challenges of managing vast volumes of financial data, and we set out to transform reconciliation into a seamless and efficient experience.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END Blogs w/ 3 images & quote & text -->
+<section class="bg-gradient-primary position-relative overflow-hidden mt-3">
+    <img src="assets/img/shapes/waves-white.svg" alt="pattern-lines" class="position-absolute opacity-6">
+    <div class="position-absolute w-100 z-inde-1 top-0 mt-n3 pt-1 ">
+        <svg width="100%" viewBox="0 -2 1920 157" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>wave-down</title>
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g fill="#FFFFFF" fill-rule="nonzero">
+                    <g id="wave-down">
+                        <path d="M0,60.8320331 C299.333333,115.127115 618.333333,111.165365 959,47.8320321 C1299.66667,-15.5013009 1620.66667,-15.2062179 1920,47.8320331 L1920,156.389409 L0,156.389409 L0,60.8320331 Z" id="Path-Copy-2" transform="translate(960.000000, 78.416017) rotate(180.000000) translate(-960.000000, -78.416017) "></path>
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </div>
+    <div class="container py-lg-10 py-7">
+        <div class="row">
+            <div class="col-lg-6 d-flex justify-content-center flex-column">
+                <div id="carouselExampleIndicator" class="carousel slide py-3" data-bs-ride="carousel">
+                    <div class="">
+                        <h2 class="text-white mb-0">Our Mission </h2>
+                        <hr class="text-white horizontal opacity-6 mb-4 mt-2 w-25 text-start">
+
+                        <ul>
+                            <li class="text-white ">To empower businesses with the tools they need to achieve accurate, timely, and transparent financial reconciliation. We are committed to helping you unlock the full potential of your financial data while reducing risk and enhancing compliance.
+                            </li>
+                            <li class="text-white pt-3">To democratize finance. We believe that financial services should be inclusive, transparent, and user centric. We're dedicated to creating cutting-edge solutions that empower you to achieve your financial goals, whether it's saving for the future, making payments effortlessly, or investing wisely.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 justify-content-center flex-column d-sm-none d-md-none d-lg-flex d-xl-flex">
+                <div class="row justify-content-center d-none d-md-flex">
+                    <div class="col-3 mb-4">
+                        <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 mt-n4 ms-8 fadeIn2 fadeInBottom">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 64 64"><title>mastercard</title><g><rect x="1" y="7" width="46" height="34" rx="3" ry="3" fill="#243747"></rect> <circle cx="19" cy="24" r="8" fill="#e61c24"></circle> <circle cx="28.934" cy="24" r="8" fill="#f99f1b"></circle> <path d="M23.967,17.736h0a7.985,7.985,0,0,0,0,12.528h0a7.985,7.985,0,0,0,0-12.528Z" fill="#f26622"></path></g></svg>
+                        </div>
+                    </div>
+                    <div class="col-4 mb-4">
+                        <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 ms-8 mt-n6 fadeIn1 fadeInBottom">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 64 64"><title>visa-v2</title><g><rect x="1" y="7" width="46" height="34" rx="3" ry="3" fill="#1a1876"></rect> <polygon points="19.238 28.8 21.847 28.8 23.48 19.224 20.87 19.224 19.238 28.8" fill="#fff"></polygon> <path d="M28.743,23.069c-.912-.443-1.471-.739-1.465-1.187,0-.4.473-.824,1.5-.824a4.713,4.713,0,0,1,2.187.477l.354-2.075a6.745,6.745,0,0,0-2.34-.4c-2.579,0-4.4,1.3-4.411,3.16-.014,1.376,1.3,2.144,2.287,2.6,1.016.469,1.358.768,1.353,1.187-.007.642-.811.936-1.562.936a5.715,5.715,0,0,1-2.793-.655l-.366,2.143a8.244,8.244,0,0,0,2.907.511c2.744,0,4.525-1.284,4.545-3.271C30.944,24.581,30.249,23.752,28.743,23.069Z" fill="#fff"></path> <path d="M38.007,19.233H35.99a1.3,1.3,0,0,0-1.367.794L30.747,28.8h2.741s.448-1.18.549-1.439l3.343,0c.078.336.318,1.435.318,1.435H40.12Zm-3.218,6.173c.108-.277,1.173-3.012,1.386-3.591.352,1.65.009.049.78,3.591Z" fill="#fff"></path> <path d="M17.049,19.231l-2.556,6.53-.272-1.327-.915-4.4a1.093,1.093,0,0,0-1.184-.809H7.913l-.033.2a10.964,10.964,0,0,1,2.742,1.051l2.32,8.317,2.762,0,4.109-9.558Z" fill="#fff"></path></g></svg>
+                        </div>
+                    </div>
+                    <div class="col-4 mb-4">
+                        <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 ms-6 mt-2 fadeIn3 fadeInBottom">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 64 64"><title>citi</title><g><path fill="#0082CF" d="M44,7H4c-1.657,0-3,1.343-3,3v28c0,1.657,1.343,3,3,3h40c1.657,0,3-1.343,3-3V10C47,8.343,45.657,7,44,7z"></path> <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" points="23.553,21.243 21.759,21.243 21.759,30.016 23.553,30.016 23.553,21.243 "></polygon> <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M25.198,21.257v1.645h1.51v4.949c0,0.683,0.188,1.231,0.548,1.645 c0.361,0.428,0.842,0.64,1.448,0.654c0.601,0.014,1.135-0.12,1.587-0.399l0.029-0.014v-0.029l0.428-1.669l-0.106,0.067 c-0.481,0.293-0.923,0.438-1.328,0.438c-0.558,0-0.842-0.332-0.842-0.986v-4.656h1.832v-1.645h-1.832v-2.742l-1.765,0.948v1.794 H25.198L25.198,21.257z"></path> <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" points="33.879,21.243 32.071,21.243 32.071,30.016 33.879,30.016 33.879,21.243 "></polygon> <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M20.729,22.623l-0.038-0.029c-0.827-1.005-1.861-1.496-3.102-1.496 c-1.299,0-2.366,0.399-3.223,1.188C13.457,23.118,13,24.239,13,25.644c0,1.404,0.457,2.516,1.366,3.357 c0.842,0.789,1.924,1.178,3.223,1.178c1.241,0,2.285-0.495,3.102-1.486l0.038-0.029l-1.015-1.226l-0.038,0.038 c-0.659,0.654-1.366,0.991-2.126,0.991c-0.794,0-1.448-0.269-1.967-0.803c-0.524-0.524-0.774-1.202-0.774-2.02 c0-0.818,0.25-1.501,0.774-2.035c0.519-0.519,1.174-0.789,1.967-0.789c0.76,0,1.467,0.337,2.126,0.991l0.038,0.038L20.729,22.623 L20.729,22.623z"></path> <path fill-rule="evenodd" clip-rule="evenodd" fill="#ED2B9F" d="M22.644,19.8c0.707-0.721,1.496-1.27,2.395-1.659 c0.866-0.375,1.789-0.558,2.742-0.558c0.948,0,1.871,0.183,2.756,0.558c0.88,0.39,1.669,0.938,2.376,1.659l0.029,0.024H35 l-0.077-0.12c-0.818-1.15-1.876-2.059-3.146-2.722C30.508,16.322,29.185,16,27.781,16c-1.39,0-2.732,0.322-4.002,0.981 c-1.27,0.664-2.328,1.573-3.141,2.722l-0.082,0.12h2.073L22.644,19.8L22.644,19.8z"></path> <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" points="23.553,21.243 21.759,21.243 21.759,30.016 23.553,30.016 23.553,21.243 "></polygon> <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M25.198,21.257v1.645h1.51v4.949c0,0.683,0.188,1.231,0.548,1.645 c0.361,0.428,0.842,0.64,1.448,0.654c0.601,0.014,1.135-0.12,1.587-0.399l0.029-0.014v-0.029l0.428-1.669l-0.106,0.067 c-0.481,0.293-0.923,0.438-1.328,0.438c-0.558,0-0.842-0.332-0.842-0.986v-4.656h1.832v-1.645h-1.832v-2.742l-1.765,0.948v1.794 H25.198L25.198,21.257z"></path> <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" points="33.879,21.243 32.071,21.243 32.071,30.016 33.879,30.016 33.879,21.243 "></polygon> <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M20.729,22.623l-0.038-0.029c-0.827-1.005-1.861-1.496-3.102-1.496 c-1.299,0-2.366,0.399-3.223,1.188C13.457,23.118,13,24.239,13,25.644c0,1.404,0.457,2.516,1.366,3.357 c0.842,0.789,1.924,1.178,3.223,1.178c1.241,0,2.285-0.495,3.102-1.486l0.038-0.029l-1.015-1.226l-0.038,0.038 c-0.659,0.654-1.366,0.991-2.126,0.991c-0.794,0-1.448-0.269-1.967-0.803c-0.524-0.524-0.774-1.202-0.774-2.02 c0-0.818,0.25-1.501,0.774-2.035c0.519-0.519,1.174-0.789,1.967-0.789c0.76,0,1.467,0.337,2.126,0.991l0.038,0.038L20.729,22.623 L20.729,22.623z"></path> <path fill-rule="evenodd" clip-rule="evenodd" fill="#FF2400" d="M22.644,19.8c0.707-0.721,1.496-1.27,2.395-1.659 c0.866-0.375,1.789-0.558,2.742-0.558c0.948,0,1.871,0.183,2.756,0.558c0.88,0.39,1.669,0.938,2.376,1.659l0.029,0.024H35 l-0.077-0.12c-0.818-1.15-1.876-2.059-3.146-2.722C30.508,16.322,29.185,16,27.781,16c-1.39,0-2.732,0.322-4.002,0.981 c-1.27,0.664-2.328,1.573-3.141,2.722l-0.082,0.12h2.073L22.644,19.8L22.644,19.8z"></path></g></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-end d-none d-md-flex">
+                    <div class="col-4 my-4">
+                        <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 ms-4 fadeIn1 fadeInBottom">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 64 64"><title>stripe</title><g><path d="M44 7H4a3 3 0 00-3 3v28a3 3 0 003 3h40a3 3 0 003-3V10a3 3 0 00-3-3z" fill="#009bf1"></path><path d="M40.875 24.234c0-2.4-1.162-4.293-3.384-4.293s-3.582 1.893-3.582 4.275c0 2.822 1.594 4.246 3.882 4.246a5.227 5.227 0 002.6-.609v-1.875a4.97 4.97 0 01-2.3.516c-.91 0-1.716-.319-1.819-1.425h4.584c0-.122.019-.61.019-.835zm-4.631-.89c0-1.06.647-1.5 1.237-1.5.572 0 1.182.44 1.182 1.5zM30.291 19.941a2.649 2.649 0 00-1.838.731l-.122-.581h-2.062v10.931l2.344-.5.009-2.653a2.636 2.636 0 001.659.59c1.678 0 3.207-1.349 3.207-4.321-.01-2.716-1.557-4.197-3.197-4.197zm-.563 6.459a1.4 1.4 0 01-1.106-.441l-.009-3.478a1.393 1.393 0 011.115-.459c.853 0 1.444.956 1.444 2.184 0 1.256-.581 2.194-1.444 2.194zM23.044 19.387l2.353-.506v-1.903l-2.353.497v1.912z" fill="#fff" fill-rule="evenodd"></path><path fill="#fff" d="M23.044 20.1h2.353v8.203h-2.353z"></path><path d="M20.522 20.794l-.15-.694h-2.025v8.2h2.344v-5.556a1.653 1.653 0 011.781-.488V20.1a1.59 1.59 0 00-1.95.694zM15.834 18.066l-2.287.487-.01 7.509a2.356 2.356 0 002.429 2.41 3.614 3.614 0 001.64-.31v-1.9c-.3.122-1.781.553-1.781-.834V22.1h1.781v-2h-1.781zM9.5 22.481c0-.365.3-.506.8-.506a5.237 5.237 0 012.325.6v-2.2a6.17 6.17 0 00-2.325-.431c-1.9 0-3.169.993-3.169 2.653 0 2.587 3.562 2.175 3.562 3.29 0 .432-.375.572-.9.572a5.827 5.827 0 01-2.56-.75v2.232a6.5 6.5 0 002.56.534c1.949 0 3.29-.966 3.29-2.644-.014-2.797-3.583-2.3-3.583-3.35z" fill="#fff" fill-rule="evenodd"></path></g></svg>
+                        </div>
+                    </div>
+                    <div class="col-3 my-4">
+                        <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 me-auto fadeIn1 fadeInBottom">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 1080 1080"><title>symb</title><g fill="none"><path d="M899.918 520.913v260.442c0 20.513-16.629 37.142-37.142 37.142H333.963l73.414-96.867a37.14 37.14 0 0 1 29.601-14.708h313.908c20.513 0 37.141-16.629 37.141-37.142v-37.292c0-20.513-16.628-37.142-37.141-37.142H601.263c-20.513 0-37.142-16.629-37.142-37.141V450.309c0-20.513 16.629-37.142 37.142-37.142h49.018c14.105 0 25.538 11.434 25.538 25.538V465.2c0 10.257 8.315 18.571 18.571 18.571h168.386c20.513 0 37.142 16.629 37.142 37.142z" fill="#8F00FF"></path><path d="M180.082 781.994V298.006c0-20.513 16.629-37.142 37.142-37.142H688.833L599.3 360.169a37.145 37.145 0 0 1-27.585 12.271H329.114c-20.512 0-37.141 16.629-37.141 37.141v37.292c0 20.513 16.629 37.142 37.141 37.142H485c20.513 0 37.142 16.629 37.142 37.142v37.292c0 20.513-16.629 37.142-37.142 37.142H329.114c-20.512 0-37.141 16.628-37.141 37.141v149.262c0 20.513-16.629 37.142-37.142 37.142h-37.607c-20.513 0-37.142-16.629-37.142-37.142z" fill="url(#1702221341449-2197446_paint0_linear_181_1002)"></path><defs><linearGradient id="1702221341449-2197446_paint0_linear_181_1002" x1="180.082" y1="260.864" x2="579.748" y2="734.607" gradientUnits="userSpaceOnUse"><stop offset=".173" stop-color="#83C3FF"></stop><stop offset="1" stop-color="#8F00FF"></stop></linearGradient></defs></g></svg>
+                        </div>
+                    </div>
+                    <div class="col-3 my-4">
+                        <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 fadeIn3 fadeInBottom ms-3 mt-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 64 64"><title>paypal</title><g><path fill="#E6E6E6" d="M44,7H4c-1.657,0-3,1.343-3,3v28c0,1.657,1.343,3,3,3h40c1.657,0,3-1.343,3-3V10C47,8.343,45.657,7,44,7z"></path> <path fill="#009EE3" d="M30.292,19.203h-2.8c-0.191,0-0.354,0.139-0.384,0.328l-1.132,7.18c-0.022,0.142,0.087,0.27,0.231,0.27 h1.437c0.134,0,0.248-0.098,0.269-0.23l0.321-2.036c0.03-0.189,0.193-0.328,0.384-0.328h0.886c1.844,0,2.909-0.893,3.187-2.662 c0.125-0.774,0.005-1.382-0.357-1.807C31.935,19.451,31.229,19.203,30.292,19.203z M30.615,21.826 c-0.153,1.005-0.921,1.005-1.663,1.005H28.53l0.296-1.877c0.018-0.113,0.116-0.197,0.231-0.197c0.615,0,1.155-0.025,1.423,0.288 C30.627,21.218,30.671,21.473,30.615,21.826z"></path> <path fill="#113984" d="M10.32,19.203h-2.8c-0.191,0-0.354,0.139-0.384,0.328l-1.132,7.18c-0.022,0.142,0.087,0.27,0.231,0.27h1.337 c0.191,0,0.354-0.139,0.384-0.328l0.306-1.937c0.03-0.189,0.193-0.328,0.384-0.328h0.886c1.844,0,2.909-0.893,3.187-2.662 c0.125-0.774,0.005-1.382-0.357-1.807C11.962,19.451,11.257,19.203,10.32,19.203z M10.643,21.826 c-0.153,1.005-0.921,1.005-1.663,1.005H8.557l0.296-1.877c0.018-0.113,0.116-0.197,0.231-0.197h0.194c0.505,0,0.983,0,1.229,0.288 C10.654,21.218,10.699,21.473,10.643,21.826z"></path> <path fill="#113984" d="M18.69,21.794h-1.341c-0.115,0-0.213,0.084-0.231,0.197l-0.059,0.375c-0.13-0.189-0.389-0.698-1.678-0.698 c-1.481,0-2.747,1.123-2.993,2.697c-0.128,0.785,0.054,1.536,0.499,2.06c0.409,0.481,0.993,0.682,1.689,0.682 c1.194,0,1.856-0.767,1.856-0.767l-0.06,0.373c-0.022,0.142,0.087,0.27,0.231,0.27h1.208c0.191,0,0.354-0.139,0.384-0.328 l0.725-4.59C18.942,21.922,18.833,21.794,18.69,21.794z M16.821,24.404c-0.129,0.766-0.738,1.28-1.513,1.28 c-0.389,0-0.7-0.125-0.9-0.362c-0.198-0.235-0.273-0.569-0.21-0.942c0.121-0.759,0.739-1.29,1.503-1.29 c0.381,0,0.69,0.126,0.894,0.365C16.799,23.696,16.88,24.033,16.821,24.404z"></path> <path fill="#009EE3" d="M38.662,21.794h-1.341c-0.115,0-0.213,0.084-0.231,0.197l-0.059,0.375c-0.13-0.189-0.389-0.698-1.678-0.698 c-1.481,0-2.747,1.123-2.993,2.697c-0.128,0.785,0.054,1.536,0.499,2.06c0.409,0.481,0.993,0.682,1.689,0.682 c1.194,0,1.856-0.767,1.856-0.767l-0.06,0.373c-0.022,0.142,0.087,0.27,0.231,0.27h1.208c0.191,0,0.354-0.139,0.384-0.328 l0.725-4.59C38.915,21.922,38.805,21.794,38.662,21.794z M36.793,24.404c-0.13,0.766-0.738,1.28-1.513,1.28 c-0.389,0-0.7-0.125-0.9-0.362c-0.198-0.235-0.273-0.569-0.21-0.942c0.121-0.759,0.739-1.29,1.503-1.29 c0.381,0,0.69,0.126,0.894,0.365C36.771,23.696,36.852,24.033,36.793,24.404z"></path> <path fill="#113984" d="M25.831,21.794h-1.348c-0.129,0-0.249,0.064-0.322,0.171l-1.859,2.738l-0.788-2.631 c-0.049-0.165-0.201-0.278-0.373-0.278h-1.325c-0.16,0-0.273,0.157-0.221,0.309l1.484,4.356l-1.396,1.97 c-0.11,0.155,0.001,0.368,0.19,0.368h1.346c0.128,0,0.247-0.063,0.32-0.167l4.482-6.469C26.13,22.005,26.019,21.794,25.831,21.794z"></path> <path fill="#009EE3" d="M40.242,19.401l-1.149,7.312c-0.022,0.142,0.087,0.27,0.231,0.27h1.156c0.191,0,0.354-0.139,0.384-0.328 l1.133-7.18c0.022-0.142-0.087-0.27-0.231-0.27h-1.294C40.358,19.203,40.26,19.287,40.242,19.401z"></path></g></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-none d-md-flex">
+                    <div class="col-6">
+                        <!-- Logo -->
+                        <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 ms-auto mt-5 fadeIn2 fadeInBottom">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 64 64"><title>mobile-card</title><g><path fill="#444444" d="M28,3H4C2.343,3,1,4.343,1,6v38c0,1.657,1.343,3,3,3h24c1.657,0,3-1.343,3-3V6C31,4.343,29.657,3,28,3z"></path> <circle fill="#686868" cx="16" cy="42" r="2"></circle> <path fill="#686868" d="M27,37H5c-0.552,0-1-0.448-1-1V9c0-0.552,0.448-1,1-1h22c0.552,0,1,0.448,1,1v27C28,36.552,27.552,37,27,37z "></path> <path fill="#43A6DD" d="M45,1H21c-1.105,0-2,0.895-2,2v16c0,1.105,0.895,2,2,2h24c1.105,0,2-0.895,2-2V3C47,1.895,46.105,1,45,1z"></path> <rect x="19" y="5" fill="#223E49" width="28" height="5"></rect> <rect x="22" y="13" fill="#FFFFFF" width="11" height="3"></rect></g></svg>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+                    <div class="col-6 mt-6">
+                        <!-- Logo -->
+                        <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 mx-auto mt-n3 fadeIn3 fadeInBottom">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 64 64"><title>logo-shopify</title><g><path fill="#95BF47" d="M39.84516,9.35914c-0.03441-0.24086-0.24086-0.3785-0.4129-0.3785S35.5785,8.70538,35.5785,8.70538 s-2.54624-2.54624-2.85592-2.82151c-0.27527-0.27527-0.82581-0.20645-1.03226-0.13763c-0.03441,0-0.55054,0.17204-1.44516,0.44731 c-0.86022-2.51183-2.3742-4.7828-5.02366-4.7828c-0.06882,0-0.13763,0-0.24086,0C24.25806,0.44731,23.29462,0,22.50323,0 c-6.19355,0-9.15269,7.74194-10.08172,11.66452c-2.4086,0.75699-4.12903,1.27312-4.33548,1.34194 c-1.34194,0.4129-1.37634,0.44731-1.54839,1.72043C6.4,15.69032,2.89032,42.87312,2.89032,42.87312L30.24516,48l14.83011-3.2 C45.07527,44.76559,39.87957,9.6,39.84516,9.35914z M28.73118,6.60645c-0.68817,0.20645-1.47957,0.44731-2.30537,0.72258 c0-0.17204,0-0.30968,0-0.51613c0-1.51398-0.20645-2.75269-0.55054-3.75054C27.25161,3.26882,28.14624,4.8172,28.73118,6.60645z M24.15484,3.40645c0.37849,0.96344,0.61935,2.30538,0.61935,4.16344c0,0.10323,0,0.17204,0,0.27527 c-1.51398,0.48172-3.13118,0.96344-4.78279,1.47957C20.92043,5.78064,22.67527,4.06021,24.15484,3.40645z M22.33118,1.65161 c0.27527,0,0.55054,0.10323,0.7914,0.27527c-1.9957,0.92903-4.09462,3.26882-4.98925,7.9828 c-1.30753,0.4129-2.58064,0.7914-3.78495,1.16989C15.38065,7.50107,17.89247,1.65161,22.33118,1.65161z"></path> <path fill="#5E8E3E" d="M39.43226,8.94624c-0.17204,0-3.85376-0.27527-3.85376-0.27527s-2.54624-2.54624-2.85592-2.82151 c-0.10323-0.10323-0.24086-0.17204-0.37849-0.17204L30.27957,48l14.83011-3.2c0,0-5.1957-35.2-5.23011-35.44086 C39.81075,9.11828,39.6043,8.98065,39.43226,8.94624z"></path> <path fill="#FFFFFF" d="M25.22151,17.13548l-1.82366,5.43656c0,0-1.6172-0.86021-3.57849-0.86021 c-2.89032,0-3.02796,1.82366-3.02796,2.27097c0,2.47742,6.46882,3.44086,6.46882,9.25591c0,4.57635-2.89032,7.53548-6.8129,7.53548 c-4.71398,0-7.08817-2.92473-7.08817-2.92473l1.27312-4.16344c0,0,2.47742,2.13333,4.54193,2.13333 c1.37634,0,1.92688-1.06667,1.92688-1.85807c0-3.23441-5.29892-3.37204-5.29892-8.70538c0-4.47312,3.2-8.8086,9.70323-8.8086 C23.9828,16.4129,25.22151,17.13548,25.22151,17.13548z"></path></g></svg>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="position-absolute w-100 bottom-0 pb-0 mb-0">
+        <svg width="100%" viewBox="0 -1 1920 166" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>wave-up</title>
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g transform="translate(0.000000, 5.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <g id="wave-up" transform="translate(0.000000, -5.000000)">
+                        <path d="M0,70 C298.666667,105.333333 618.666667,95 960,39 C1301.33333,-17 1621.33333,-11.3333333 1920,56 L1920,165 L0,165 L0,70 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </div>
+</section>
+<section class="pb-6 pt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 ms-auto me-auto text-center">
+                <h3 class="text-gradient text-primary mb-0 mt-4">What Sets Us Apart</h3>
+                <h3>Here's what makes us unique</h3>
+                <p>At FinBix, we stand out from the crowd because of our commitment to innovation, security, and customer satisfaction.</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4 ms-auto my-auto">
+                <div class="cursor-pointer">
+                    <div class="card card-background tilt" data-tilt="">
+                        <div class="full-background" style="background-image: url('assets/img/finbix/DIFC4.png')"></div>
+                        <div class="card-body pt-7 text-center">
+                            <h1 class="text-white up mb-0">Innovation</h1>
+                            <p class="lead up">We leverage the latest technology to create solutions that simplify your financial life. We harness the latest fintech advances to provide reconciliation solutions that are agile, accurate, and adaptable to your unique needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 me-auto my-auto ms-md-5">
+                <div class="p-3 info-horizontal d-flex">
+                    <div>
+                        <h5>1. Innovation</h5>
+                        <p>
+                            We leverage the latest technology to create solutions that simplify your financial life. We harness the latest fintech advances to provide reconciliation solutions that are agile, accurate, and adaptable to your unique needs.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-3 info-horizontal d-flex">
+                    <div>
+                        <h5>2. Accuracy and Transparency</h5>
+                        <p>
+                            We prioritize data accuracy and transparency, so you can trust that your financial records are in expert hands.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-3 info-horizontal d-flex">
+                    <div>
+                        <h5>3. Customization</h5>
+                        <p>
+                            We understand that every business is different. Our solutions are highly customizable to ensure they align seamlessly with your specific reconciliation requirements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="dark my-md-6 mt-2 mx-7">
+        <div class="row">
+            <div class="col-md-5 ms-auto my-auto">
+                <div class="p-3 info-horizontal d-flex">
+                    <div>
+                        <h5>4. Security</h5>
+                        <p>
+                            Your trust is our top priority. We employ industry-leading security measures to ensure your data and transactions are always safe and protected.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-3 info-horizontal d-flex">
+                    <div>
+                        <h5>5. User-Centric Design</h5>
+                        <p>
+                            Our products and services are designed with you in mind. We prioritize usability, so you can navigate our platform with ease.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-3 info-horizontal d-flex">
+                    <div>
+                        <h5>6. Customer Support</h5>
+                        <p>
+                            We're here for you. Our dedicated customer support team is ready to assist you every step of the way.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 me-auto my-auto ms-md-5">
+                <div class="cursor-pointer">
+                    <div class="card card-background tilt" data-tilt="">
+                        <div class="full-background" style="background-image: url('assets/img/finbix/DIFC5.png')"></div>
+                        <div class="card-body pt-7 text-center">
+                            <h1 class="text-white up mb-0">User-Centric Design</h1>
+                            <p class="lead up">Our products and services are designed with you in mind. We prioritize usability, so you can navigate our platform with ease.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----#######---->
+<footer class="footer   py-4 bg-light">
+    <div class="row m-4">
+        <!-- Logo Column -->
+        <div class="col-md-4 d-flex align-items-center justify-content-md-start justify-content-center mb-3 mb-md-0">
+            <a href="./index.html">
+                <img src="assets/img/logos/logonew.png" alt="FinBix Logo" style="width:150px; height:auto;">
+            </a>
+        </div>
+
+        <!-- Social Icons Column -->
+        <div class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0">
+            <a href="https://twitter.com/yourprofile"  class="me-2">
+                <img src="assets/img/finbix/linkedin.png" alt="FinBix Logo" style="width:48px; height:auto;">
+            </a>
+            <a href="https://linkedin.com/company/yourprofile" >
+                <img src="assets/img/finbix/x.png" alt="FinBix Logo" style="width:48px; height:auto;">
+            </a>
+        </div>
+
+        <!-- Text Column -->
+        <div class="col-md-4 mb-3 text-end">
+            <p class="mb-0 text-sm">coding by <a class="fw-bold" href="https://finbix.io" >FinBix.io</a>
+            </p>
+            <p class="mb-0 text-sm">design by <a class="fw-bold" href="https://roobium.io"
+                                                 >roobium.io</a></p>
+            <p class="mb-0 text-sm">&copy; <span id="year"></span> <a href="https://finbix.io"
+                                                                      >FinBix.io</a>, Chrimata, All
+                rights reserved.</p>
+        </div>
+    </div>
+</footer>
+<footer class="footer py-5  bg-gradient-dark position-relative overflow-hidden">
+    <img src="assets/img/shapes/waves-white.svg" alt="pattern-lines" class="position-absolute start-0 top-0 w-100 opacity-6">
+    <div class="container position-relative">
+        <div class="row">
+            <div class="col-lg-4 me-auto my-auto text-lg-start text-center">
+                <h6 class="text-white font-weight-bolder text-uppercase mb-2">FinBix</h6>
+                <p class="text-white">
+                    UAE, Dubai, Bay Views Tower, 1102
+                </p>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-12 ms-md-auto text-lg-start text-center mb-sm-0 mb-4">
+                <div>
+                    <h6 class="text-white text-sm mb-1">Solutions</h6>
+                    <ul class="flex-column ms-lg-n3 nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white opacity-8 text-sm" href="ReconX.html" >
+                                ReconX
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white opacity-8 text-sm" href="SmartPayOut.html" >
+                                Smart PayOut
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white opacity-8 text-sm" href="CorporateSpendControl.html" >
+                                Corporate Spend Control
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-4 col-12 text-lg-start text-center mb-sm-0 mb-4">
+                <div>
+                    <h6 class="text-white text-sm mb-1">Case Studies</h6>
+                    <ul class="flex-column ms-lg-n3 nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white opacity-8 text-sm" href="ReconX.html" >
+                                Issuing
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white opacity-8 text-sm" href="ReconX.html" >
+                                Acquiring
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-4 col-12 text-lg-start text-center mb-sm-0 mb-4">
+                <div>
+                    <h6 class="text-white text-sm mb-1">Company</h6>
+                    <ul class="flex-column ms-lg-n3 nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white opacity-8 text-sm" href="ReconX.html" >
+                                Our Story
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white opacity-8 text-sm" href="ReconX.html" >
+                                Contacts
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!----#######---->
+<!--   Core JS Files   -->
+<script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
+<!--  Plugin for TypedJS, full documentation here: https://github.com/mattboldt/typed.js/ -->
+<script src="assets/js/plugins/typedjs.js"></script>
+<!--  Plugin for Parallax, full documentation here: https://github.com/wagerfield/parallax  -->
+<script src="assets/js/plugins/parallax.min.js"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<!--  Plugin for the GlideJS Carousel, full documentation here: http://kenwheeler.github.io/slick/ -->
+<script src="assets/js/plugins/glidejs.min.js" type="text/javascript"></script>
+<!--  Plugin for the blob animation -->
+<script src="assets/js/plugins/anime.min.js" type="text/javascript"></script>
+<!-- Chart JS -->
+<script src="assets/js/plugins/chartjs.min.js"></script>
+<!-- Control Center for Soft UI Kit: parallax effects, scripts for the example pages etc -->
+<!--  Google Maps Plugin    -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
+<script src="assets/js/soft-design-system-pro.min.js?v=1.1.1" type="text/javascript"></script>
+<script src="assets/js/plugins/tilt.min.js"></script>
+</body>
+
+</html>

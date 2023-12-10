@@ -1,0 +1,531 @@
+<!--
+=========================================================
+* Soft UI Design System PRO - v1.1.1
+=========================================================
+
+* Product Page:  https://www.creative-tim.com/product/soft-ui-design-system-pro 
+* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Coded by www.creative-tim.com
+
+ =========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <title>
+        FinBix
+    </title>
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Nucleo Icons -->
+    <link href="assets/css/nucleo-icons.css" rel="stylesheet"/>
+    <link href="assets/css/nucleo-svg.css" rel="stylesheet"/>
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <script src="assets/js/plugins/Gradient.js"></script>
+    <link href="assets/css/nucleo-svg.css" rel="stylesheet"/>
+    <!-- CSS Files -->
+    <link id="pagestyle" href="assets/css/soft-design-system-pro.css?v=1.1.1" rel="stylesheet"/>
+    <!-- Nepcha Analytics (nepcha.com) -->
+    <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
+    <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
+</head>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    #gradient-canvas {
+        --gradient-color-1: #78C7FF; /* Lightest blue representing the top of the sky */
+        --gradient-color-2: #907ACC; /* Light blue */
+        --gradient-color-3: #8F00FF; /* Deeper blue, moving toward the horizon */
+        --gradient-color-4: #6633FF; /* Deepest blue for the horizon */
+    }
+</style>
+<body class="case-study">
+<canvas id="gradient-canvas" style="width:100vw;height:100vh;position:absolute;z-index: -9;"></canvas>
+<script>
+    //var gradient = new Gradient()
+    //gradient.initGradient('#gradient-canvas');
+</script>
+<!----#######---->
+<nav class="navbar navbar-expand-lg position-absolute top-0 z-index-3 w-100 shadow-none my-3  navbar-transparent ">
+    <div class="container">
+        <a class="navbar-brand text-white"
+           href="index.html" rel="tooltip"
+           title="Designed and Coded by Creative Tim" data-placement="bottom" >
+            <img src="assets/img/logos/logonew.png" alt="FinBix Logo"
+                 style="height:auto; width:200px; max-height: 100%; max-width: 100%;">
+        </a>
+
+        <button class="navbar-toggler shadow-none border-0 ms-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
+                aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon mt-2">
+          <span class="navbar-toggler-bar bar1"></span>
+          <span class="navbar-toggler-bar bar2"></span>
+          <span class="navbar-toggler-bar bar3"></span>
+        </span>
+        </button>
+        <div class="collapse navbar-collapse w-100 pt-2 pb-2 py-lg-0" id="navigation">
+            <ul class="navbar-nav navbar-nav-hover mx-auto">
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                    <a class="font-weight-bold nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-dark"
+                       role="button" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
+                        Solutions
+                        <img src="assets/img/down-arrow-dark.svg" alt="down-arrow"
+                             class="arrow ms-1 d-lg-block d-none">
+                        <img src="assets/img/down-arrow-dark.svg" alt="down-arrow"
+                             class="arrow ms-1 d-lg-none d-block">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg"
+                         aria-labelledby="dropdownMenuDocs">
+                        <div class="d-none d-lg-block">
+                            <ul class="list-group">
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-0 border-radius-md" href="ReconX.html">
+                                        <div class="d-flex ">
+                                            <div class="icon me-3  mt-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 48 48"><title>block</title><g><path d="M43.879,12.037a.994.994,0,0,0-.413-.422l-19-10a1,1,0,0,0-.932,0l-19,10a1,1,0,0,0-.413.421L24,22.5Z" fill="#9000ff"></path><path d="M24,22.5v24a1,1,0,0,0,.466-.115l19-10A1,1,0,0,0,44,35.5v-23a.986.986,0,0,0-.121-.463Zm19,13h0Z" fill="#ededed"></path><path d="M4.121,12.036A1,1,0,0,0,4,12.5v23a1,1,0,0,0,.534.885l19,10A1,1,0,0,0,24,46.5v-24Z" fill="#78c8ff"></path></g></svg>
+                                            </div>
+                                            <div>
+                                                <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">
+                                                    ReconX</h6>
+                                                <span class="text-sm ps-3">Scheme Reconciliation</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row d-lg-none">
+                            <div class="col-md-12 g-0">
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="ReconX.html">
+                                    <div class="d-flex">
+                                        <div class="icon h-10 me-3 mt-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 48 48"><title>block</title><g><path d="M43.879,12.037a.994.994,0,0,0-.413-.422l-19-10a1,1,0,0,0-.932,0l-19,10a1,1,0,0,0-.413.421L24,22.5Z" fill="#9000ff"></path><path d="M24,22.5v24a1,1,0,0,0,.466-.115l19-10A1,1,0,0,0,44,35.5v-23a.986.986,0,0,0-.121-.463Zm19,13h0Z" fill="#ededed"></path><path d="M4.121,12.036A1,1,0,0,0,4,12.5v23a1,1,0,0,0,.534.885l19,10A1,1,0,0,0,24,46.5v-24Z" fill="#78c8ff"></path></g></svg>
+                                        </div>
+                                        <div>
+                                            <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                ReconX</h6>
+                                            <span class="ps-3 text-sm">Scheme Reconciliation</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-none d-lg-block">
+                            <ul class="list-group">
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-0 border-radius-md" href="SmartPayOut.html">
+                                        <div class="d-flex ">
+                                            <div class="icon me-3  mt-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64"><title>compass-3</title><g stroke-width="4" fill="#78c8ff" stroke="#78c8ff"><path fill="none" stroke="#9000ff" stroke-linecap="square" stroke-miterlimit="10" d="M32 2a30 30 0 1 1 0 60 30 30 0 1 1 0-60z"></path><path fill="none" stroke-linecap="square" stroke-miterlimit="10" d="M35 51l-6-16-16-6 32-10z"></path></g></svg>
+                                            </div>
+                                            <div>
+                                                <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">
+                                                    Smart PayOut</h6>
+                                                <span class="text-sm ps-3">Payout Orchestration</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row d-lg-none">
+                            <div class="col-md-12 g-0">
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="SmartPayOut.html">
+                                    <div class="d-flex">
+                                        <div class="icon h-10 me-3  mt-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64"><title>compass-3</title><g stroke-width="4" fill="#78c8ff" stroke="#78c8ff"><path fill="none" stroke="#9000ff" stroke-linecap="square" stroke-miterlimit="10" d="M32 2a30 30 0 1 1 0 60 30 30 0 1 1 0-60z"></path><path fill="none" stroke-linecap="square" stroke-miterlimit="10" d="M35 51l-6-16-16-6 32-10z"></path></g></svg>
+                                        </div>
+                                        <div>
+                                            <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                Smart PayOut</h6>
+                                            <span class="ps-3 text-sm">Payout Orchestration</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-none d-lg-block">
+                            <ul class="list-group">
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-0 border-radius-md" href="CorporateSpendControl.html">
+                                        <div class="d-flex ">
+                                            <div class="icon me-3  mt-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" viewBox="0 0 48 48"><title>switches</title><g fill="#78c8ff"><path d="M35,26H13a10,10,0,0,0,0,20H35a10,10,0,0,0,0-20Zm0,17a7,7,0,1,1,7-7A6.957,6.957,0,0,1,35,43Z"></path><path d="M35,2H13a10,10,0,0,0,0,20H35A10,10,0,0,0,35,2ZM13,19a7,7,0,1,1,7-7A6.957,6.957,0,0,1,13,19Z" fill="#9000ff"></path></g></svg>
+                                            </div>
+                                            <div>
+                                                <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">
+                                                    Corporate Spend Control</h6>
+                                                <span class="text-sm ps-3">Corporate Cards spend control</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row d-lg-none">
+                            <div class="col-md-12 g-0">
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="CorporateSpendControl.html">
+                                    <div class="d-flex">
+                                        <div class="icon h-10 me-3  mt-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" viewBox="0 0 48 48"><title>switches</title><g fill="#78c8ff"><path d="M35,26H13a10,10,0,0,0,0,20H35a10,10,0,0,0,0-20Zm0,17a7,7,0,1,1,7-7A6.957,6.957,0,0,1,35,43Z"></path><path d="M35,2H13a10,10,0,0,0,0,20H35A10,10,0,0,0,35,2ZM13,19a7,7,0,1,1,7-7A6.957,6.957,0,0,1,13,19Z" fill="#9000ff"></path></g></svg>
+                                        </div>
+                                        <div>
+                                            <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                Corporate Spend Control</h6>
+                                            <span class="ps-3 text-sm">Corporate Cards spend control</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                    <a class="font-weight-bold nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-dark"
+                       role="button" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
+                        Case Studies
+                        <img src="assets/img/down-arrow-dark.svg" alt="down-arrow"
+                             class="arrow ms-1 d-lg-block d-none">
+                        <img src="assets/img/down-arrow-dark.svg" alt="down-arrow"
+                             class="arrow ms-1 d-lg-none d-block">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg"
+                         aria-labelledby="dropdownMenuDocs">
+                        <div class="d-none d-lg-block">
+                            <ul class="list-group">
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-0 border-radius-md"
+                                       href="Issuing.html">
+                                        <div class="d-flex ">
+                                            <div class="icon me-3  mt-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 48 48"><title>contactless-card</title><g stroke-linecap="square" stroke-linejoin="miter" stroke-width="4" fill="none" stroke="#9000ff" stroke-miterlimit="10"><line x1="10" y1="33" x2="24" y2="33"></line><line x1="32" y1="33" x2="38" y2="33"></line><path d="M43,41H5a2.946,2.946,0,0,1-3-3V12A2.946,2.946,0,0,1,5,9H43a2.946,2.946,0,0,1,3,3V38A2.946,2.946,0,0,1,43,41Z"></path><path d="M31.189,23.392a3.933,3.933,0,0,0,0-4.784" stroke="#78c8ff"></path><path d="M35.991,26.993a9.943,9.943,0,0,0,0-11.986" stroke="#78c8ff"></path><circle cx="26" cy="21" r="2" stroke="none" fill="#78c8ff"></circle><rect x="10" y="17" width="7" height="6"></rect></g></svg>
+                                            </div>
+                                            <div>
+                                                <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">
+                                                    Issuing</h6>
+                                                <span class="text-sm ps-3">Issuer Reconciliation</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row d-lg-none">
+                            <div class="col-md-12 g-0">
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="Issuing.html">
+                                    <div class="d-flex">
+                                        <div class="icon h-10 me-3 mt-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 48 48"><title>contactless-card</title><g stroke-linecap="square" stroke-linejoin="miter" stroke-width="4" fill="none" stroke="#9000ff" stroke-miterlimit="10"><line x1="10" y1="33" x2="24" y2="33"></line><line x1="32" y1="33" x2="38" y2="33"></line><path d="M43,41H5a2.946,2.946,0,0,1-3-3V12A2.946,2.946,0,0,1,5,9H43a2.946,2.946,0,0,1,3,3V38A2.946,2.946,0,0,1,43,41Z"></path><path d="M31.189,23.392a3.933,3.933,0,0,0,0-4.784" stroke="#78c8ff"></path><path d="M35.991,26.993a9.943,9.943,0,0,0,0-11.986" stroke="#78c8ff"></path><circle cx="26" cy="21" r="2" stroke="none" fill="#78c8ff"></circle><rect x="10" y="17" width="7" height="6"></rect></g></svg>
+                                        </div>
+                                        <div>
+                                            <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                Issuing</h6>
+                                            <span class="ps-3 text-sm">Issuer Reconciliation</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-none d-lg-block">
+                            <ul class="list-group">
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-0 border-radius-md"
+                                       href="Acquiring.html">
+                                        <div class="d-flex ">
+                                            <div class="icon me-3  mt-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64"><title>pos</title><g stroke-linecap="square" stroke-linejoin="miter" stroke-width="4" fill="none" stroke="#9000ff" stroke-miterlimit="10"><path d="M20,48L20,48 c-4.418,0-8-3.582-8-8V2h40v38c0,4.418-3.582,8-8,8h0"></path> <polygon points="44,22 20,22 20,10 20,10 44,10 "></polygon> <polygon points=" 44,62 20,62 20,35 44,35 44,42 " stroke="#78c8ff"></polygon> <line x1="28" y1="35" x2="28" y2="62" stroke="#78c8ff"></line> <line x1="36" y1="49" x2="36" y2="54" stroke="#78c8ff"></line></g></svg>
+                                            </div>
+                                            <div>
+                                                <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">
+                                                    Acquiring</h6>
+                                                <span class="text-sm ps-3">Merchant Payout</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row d-lg-none">
+                            <div class="col-md-12 g-0">
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="Acquiring.html">
+                                    <div class="d-flex">
+                                        <div class="icon h-10 me-3  mt-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64"><title>pos</title><g stroke-linecap="square" stroke-linejoin="miter" stroke-width="4" fill="none" stroke="#9000ff" stroke-miterlimit="10"><path d="M20,48L20,48 c-4.418,0-8-3.582-8-8V2h40v38c0,4.418-3.582,8-8,8h0"></path> <polygon points="44,22 20,22 20,10 20,10 44,10 "></polygon> <polygon points=" 44,62 20,62 20,35 44,35 44,42 " stroke="#78c8ff"></polygon> <line x1="28" y1="35" x2="28" y2="62" stroke="#78c8ff"></line> <line x1="36" y1="49" x2="36" y2="54" stroke="#78c8ff"></line></g></svg>
+                                        </div>
+                                        <div>
+                                            <h6 class="ps-3 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                Acquiring</h6>
+                                            <span class="ps-3 text-sm">Merchant Payout</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                    <a class="font-weight-bold nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-dark"
+                       role="button" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
+                        About Us
+                        <img src="assets/img/down-arrow-dark.svg" alt="down-arrow"
+                             class="arrow ms-1 d-lg-block d-none">
+                        <img src="assets/img/down-arrow-dark.svg" alt="down-arrow"
+                             class="arrow ms-1 d-lg-none d-block">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg"
+                         aria-labelledby="dropdownMenuDocs">
+                        <div class="d-none d-lg-block">
+                            <ul class="list-group">
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-0 border-radius-md"
+                                       href="OurStory.html">
+                                        <div class="d-flex ">
+                                            <div>
+                                                <h6 class="ps-2 dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">
+                                                    Our Story</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row d-lg-none">
+                            <div class="col-md-12 g-0">
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="OurStory.html">
+                                    <div class="d-flex">
+                                        <div>
+                                            <h6 class="ps-2 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                Our Story</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-none d-lg-block">
+                            <ul class="list-group">
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-0 border-radius-md"
+                                       href="Contacts.html">
+                                        <div class="d-flex ">
+                                            <div>
+                                                <h6 class="ps-2 dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">
+                                                    Contacts</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row d-lg-none">
+                            <div class="col-md-12 g-0">
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="Contacts.html">
+                                    <div class="d-flex">
+                                        <div>
+                                            <h6 class="ps-2 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                Contacts</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav d-lg-block d-none">
+                <li class="nav-item">
+                    <a href="contact-us.html"
+                       class="btn   bg-gradient-primary  mb-0 me-1">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!----#######---->
+<!-- -------- START HEADER 8 w/ card over right bg image ------- -->
+<!-- -------- START HEADER 7 w/ card over right bg image ------- -->
+
+<header>
+    <div class="page-header min-vh-85 pt-6">
+        <div>
+            <img class="position-absolute fixed-top top-10 ms-auto w-50 h-auto z-index-0 d-none d-sm-none d-md-block border-radius-section border-top-end-radius-0 border-top-start-radius-0 border-bottom-end-radius-0" src="assets/img/finbix/contactus.png" alt="image">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 d-flex justify-content-center flex-column">
+                    <div class="card bg-transparent d-flex blur justify-content-center p-4 px-0 shadow-lg my-sm-0 my-sm-6 mt-8 mb-5">
+                        <div class="text-center">
+                            <h3 class="text-gradient text-primary">Contact FinBix</h3>
+                        </div>
+                        <script type='module' src='https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js'></script>
+                        <zapier-interfaces-page-embed page-id='clohiaa48000flc0n9byeky90' no-background='true'  style='max-width: 900px; height: 880px;'></zapier-interfaces-page-embed>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!----#######---->
+<footer class="footer   py-4 bg-light">
+    <div class="row m-4">
+        <!-- Logo Column -->
+        <div class="col-md-4 d-flex align-items-center justify-content-md-start justify-content-center mb-3 mb-md-0">
+            <a href="./index.html">
+                <img src="assets/img/logos/logonew.png" alt="FinBix Logo" style="width:150px; height:auto;">
+            </a>
+        </div>
+
+        <!-- Social Icons Column -->
+        <div class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0">
+            <a href="https://twitter.com/yourprofile"  class="me-2">
+                <img src="assets/img/finbix/linkedin.png" alt="FinBix Logo" style="width:48px; height:auto;">
+            </a>
+            <a href="https://linkedin.com/company/yourprofile" >
+                <img src="assets/img/finbix/x.png" alt="FinBix Logo" style="width:48px; height:auto;">
+            </a>
+        </div>
+
+        <!-- Text Column -->
+        <div class="col-md-4 mb-3 text-end">
+            <p class="mb-0 text-sm">coding by <a class="fw-bold" href="https://finbix.io" >FinBix.io</a>
+            </p>
+            <p class="mb-0 text-sm">design by <a class="fw-bold" href="https://roobium.io"
+            >roobium.io</a></p>
+            <p class="mb-0 text-sm">&copy; <span id="year"></span> <a href="https://finbix.io"
+            >FinBix.io</a>, Chrimata, All
+                rights reserved.</p>
+        </div>
+    </div>
+</footer>
+<footer class="footer py-5  bg-gradient-dark position-relative overflow-hidden">
+    <img src="assets/img/shapes/waves-white.svg" alt="pattern-lines" class="position-absolute start-0 top-0 w-100 opacity-6">
+    <div class="container position-relative">
+        <div class="row">
+            <div class="col-lg-4 me-auto my-auto text-lg-start text-center">
+                <h6 class="text-white font-weight-bolder text-uppercase mb-2">FinBix</h6>
+                <p class="text-white">
+                    UAE, Dubai, Bay Views Tower, 1102
+                </p>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-12 ms-md-auto text-lg-start text-center mb-sm-0 mb-4">
+                <div>
+                    <h6 class="text-white text-sm mb-1">Solutions</h6>
+                    <ul class="flex-column ms-lg-n3 nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white opacity-8 text-sm" href="ReconX.html" >
+                                ReconX
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white opacity-8 text-sm" href="SmartPayOut.html" >
+                                Smart PayOut
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white opacity-8 text-sm" href="CorporateSpendControl.html" >
+                                Corporate Spend Control
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-4 col-12 text-lg-start text-center mb-sm-0 mb-4">
+                <div>
+                    <h6 class="text-white text-sm mb-1">Case Studies</h6>
+                    <ul class="flex-column ms-lg-n3 nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white opacity-8 text-sm" href="ReconX.html" >
+                                Issuing
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white opacity-8 text-sm" href="ReconX.html" >
+                                Acquiring
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-4 col-12 text-lg-start text-center mb-sm-0 mb-4">
+                <div>
+                    <h6 class="text-white text-sm mb-1">Company</h6>
+                    <ul class="flex-column ms-lg-n3 nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white opacity-8 text-sm" href="ReconX.html" >
+                                Our Story
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white opacity-8 text-sm" href="ReconX.html" >
+                                Contacts
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!----#######---->
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+<!-- -------- END FOOTER 5 w/ DARK BACKGROUND ------- -->
+<!-- -------- END FOOTER 7 w/ DARK BACKGROUND AND 3 COLUMNS ------- -->
+<!--   Core JS Files   -->
+<script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
+<!--  Plugin for TypedJS, full documentation here: https://github.com/mattboldt/typed.js/ -->
+<script src="assets/js/plugins/typedjs.js"></script>
+<!--  Plugin for Parallax, full documentation here: https://github.com/wagerfield/parallax  -->
+<script src="assets/js/plugins/parallax.min.js"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<!--  Plugin for the GlideJS Carousel, full documentation here: http://kenwheeler.github.io/slick/ -->
+<script src="assets/js/plugins/glidejs.min.js" type="text/javascript"></script>
+<!--  Plugin for the blob animation -->
+<script src="assets/js/plugins/anime.min.js" type="text/javascript"></script>
+<!-- Chart JS -->
+<script src="assets/js/plugins/chartjs.min.js"></script>
+<!-- Control Center for Soft UI Kit: parallax effects, scripts for the example pages etc -->
+<!--  Google Maps Plugin    -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
+<script src="assets/js/soft-design-system-pro.min.js?v=1.1.1" type="text/javascript"></script>
+<script src="assets/js/plugins/tilt.min.js"></script>
+</body>
+
+</html>
