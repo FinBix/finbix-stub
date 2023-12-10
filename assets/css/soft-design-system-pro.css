@@ -10545,6 +10545,10 @@ fieldset:disabled .btn {
   color: var(--bs-primary) !important;
 }
 
+.text-finbix {
+  color: #8F00FF !important;
+}
+
 .text-secondary {
   color: var(--bs-secondary) !important;
 }
