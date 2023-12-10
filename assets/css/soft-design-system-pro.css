@@ -21287,7 +21287,7 @@ fieldset:disabled .btn {
   }
 
   .dropdown.nav-item .dropdown-menu-animation.show {
-    height: 550px;
+    height: 200px;
     opacity: 1;
   }
 
