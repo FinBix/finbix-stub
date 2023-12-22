@@ -352,18 +352,18 @@
 <!----#######---->
 <!-- -------- START HEADER 1 w/ text and image on right ------- -->
 <header class="header-2">
-    <div class="page-header min-vh-75 relative" style="background-image: url('./assets/img/curved-images/curved1.jpg')">
-        <span class="mask bg-gradient-primary"></span>
+    <div class="page-header min-vh-75 relative" >
+        <canvas id="gradient-canvas" class="p-0 border-radius-xl" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: -1;"></canvas>
         <div class="container">
-            <canvas id="gradient-canvas" class="p-0 border-radius-xl" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: -1;"></canvas>
-            <div class="row">
+            <div class="row mb-5">
                 <script>
                     var gradient = new Gradient()
                     gradient.initGradient('#gradient-canvas');
                 </script>
-                <div class="col-lg-7 text-center mx-auto">
-                    <h1 class="text-white pt-3 mt-n5">Recon<span class="text-dark">X</span></h1>
-                    <p class="lead text-white mt-3">Scheme Reconciliation made simple.</p>
+                <div class="col text-center mx-auto pb-4">
+                    <img src="assets/img/finbix/ReconX.png" alt="img-blur-shadow" class="img-fluid w-lg-20 w-40 pb-4">
+                    <h1 class="text-white pt-4 mt-n5">Recon<span class="text-dark">X</span></h1>
+                    <p class="lead text-white mt-3">Reconciliation made simple.</p>
                 </div>
             </div>
         </div>
